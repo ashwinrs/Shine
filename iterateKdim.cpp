@@ -1,5 +1,5 @@
 /*
-Implementation of a logic to iterated over k dimensional array.
+Implementation of a logic to iterate over k dimensional array.
 */
 
 #include <iostream>
