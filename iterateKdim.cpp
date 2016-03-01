@@ -1,3 +1,7 @@
+/*
+Implementation of a logic to iterated over k dimensional array.
+*/
+
 #include <iostream>
 
 using namespace std;
@@ -11,8 +15,10 @@ void iterate(int d, int n, int size[], int res[]){
         }
         cout << endl;
     }else{
+        //iterate over all values in the dimension d
         for(int i = 0; i < size[d]; ++i){
             res[d] = i;
+            //recursively call the next dimension
             iterate(d+1,n,size,res);
         }
     }
