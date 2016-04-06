@@ -1,2 +1,2 @@
 # hmmm
-Interesting problems which make me think a bit
+Interesting problems
